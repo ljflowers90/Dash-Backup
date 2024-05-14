@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dashbackup:
+    image: dashbackup
+    build:
+      context: .
+      dockerfile: ./Dockerfile
